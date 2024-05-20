@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_games">
+
+    <fragment
+        android:id="@+id/navigation_games"
+        android:name="com.example.tugasday11.ui.games.gamesFragment"
+        android:label="@string/games"
+        tools:layout="@layout/fragment_games" />
+
+    <fragment
+        android:id="@+id/navigation_apps"
+        android:name="com.example.tugasday11.ui.apps.AppsFragment"
+        android:label="@string/apps"
+        tools:layout="@layout/fragment_apps" />
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.example.tugasday11.ui.notifications.NotificationsFragment"
+        android:label="@string/notification"
+        tools:layout="@layout/fragment_notifications" />
+
+    <fragment
+        android:id="@+id/navigation_offers"
+        android:name="com.example.tugasday11.ui.offers.OffersFragment"
+        android:label="@string/offers"
+        tools:layout="@layout/fragment_offers" />
+
+    <fragment
+        android:id="@+id/navigation_books"
+        android:name="com.example.tugasday11.ui.books.BooksFragment"
+        android:label="@string/books"
+        tools:layout="@layout/fragment_books"/>
+</navigation>
